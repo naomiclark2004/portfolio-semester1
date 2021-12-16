@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href ="mailto:nclark921@west-mec.org" target="_blank">Contact</a>
+        <a href="https://github.com/naomiclark2004"  target="_blank" >Github</a>
+    </div>
+    <div class="header">
+        <div class="profile"></div>
+        <div class="content">
+            <h2>Naomi Clark</h2>
+            <p>West-Mec Coding Student</p>
+            <p>Developer and Designer</p>
+        </div>
+    </div>
+
+    <div class="skills">
+        
+    </div>
+
+    <div class="button">
+        <button class="button" onclick="newWorks()">Newest</button>
+        <button class="button button2" onclick="oldWorks()">Oldest</button>
+    </div>
+
+    <!-- flex container*-->
+    <div class="container">
+        <div class="box-item" id="box1">
+            <a href="https://naomiclark2004.github.io/az-landmarks/" target="_blank" >
+                <div class="box-photo">
+                    <img src="grandcanyon.png" width="100%" height="100%" alt="AZ Landmarks">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>AZ Landmarks - 8/23/21</p>
+                <p>CSS project on text properties by creating a website.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box2">
+            <a href="https://naomiclark2004.github.io/landing-page/" target="_blank">
+                <div class="box-photo">
+                    <img src="landing-page.png" width="100%" height="100%" alt="Landing Page">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Landing Page - 9/1/21</p>
+                <p>CSS landing page project using google fonts and a background image.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box3">
+            <a href="https://naomiclark2004.github.io/resume/" target="_blank">
+                <div class="box-photo">
+                    <img src="resume2.png" width="100%" height="100%" alt="Resume">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Resume - 9/1/21</p>
+                <p>Resume project using font text and font face properties.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box4">
+            <a href="https://naomiclark2004.github.io/career-tree/" target="_blank">
+                <div class="box-photo">
+                    <img src="career tree.png" width="100%" height="100%" alt="Career-Tree">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Career Tree - 10/21/21</p>
+                <p>Project to compare the three levels of careers and show their lifestyle.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box5">
+            <a href="https://naomiclark2004.github.io/registration-form/" target="_blank">
+                <div class="box-photo">
+                    <img src="registration form.png" width="100%" height="100%" alt="registration-form">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Registration Form - 11/1/21</p>
+                <p>JS project using functions and built off of an earlier form project.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box6">
+            <a href="https://naomiclark2004.github.io/calculator/" target="_blank">
+                <div class="box-photo">
+                    <img src="calculator.png" width="100%" height="100%" alt="Calculator">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Calculator - 11/5/21</p>
+                <p>Calculator project using JS to create a functional calculator.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box7">
+            <a href="https://naomiclark2004.github.io/quiz/" target="_blank">
+                <div class="box-photo">
+                    <img src="quiz.png" width="100%" height="100%" alt="quiz">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Quiz - 11/9/21</p>
+                <p>Quiz project using JS to create a functional, graded, and time quiz.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box8">
+            <a href="https://naomiclark2004.github.io/Tic-Tac_Toe/" target="_blank">
+                <div class="box-photo">
+                    <img src="tictactoe.png" width="100%" height="100%" alt="tic-tac-toe">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Tic-Tac-Toe - 11/17/21</p>
+                <p>Tic-Tac-Toe project using JS to create a fully functioning game.</p>
+            </div>
+        </div>
+
+        <div class="box-item" id="box9">
+            <a href="https://naomiclark2004.github.io/boy-animations/" target="_blank">
+                <div class="box-photo">
+                    <img src="animation.png" width="100%" height="100%" alt="animation">
+                </div>
+            </a>
+            <div class="box-content">
+                <p>Animation - 12/3/21</p>
+                <p>Amination project using CSS and JS to make an amination.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; Naomi Clark. All Rights Reserved</p>
+        <div class="contact-list">
+            <a href="mailto: nclark921@west-mec.org" target="_blank">
+                <img src="https://img.icons8.com/material-rounded/24/ffffff/mail.png" width="25px" height="25px"/>
+            </a>
+
+            <a href="https://github.com/naomiclark2004" target="_blank">
+                <img src="https://img.icons8.com/fluency-systems-filled/48/ffffff/github.png" width="25px" height="25px"/>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
