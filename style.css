@@ -195,7 +195,7 @@ body{
 }
 
 /* Tablet Screen Portrait */
-@media only screen and (min-width: 426px) and (max-width: 768px){
+@media only screen and (min-width: 426px) and (-webkit-min-device-pixel-ratio: 1) and (max-width: 768px){
     .content{
         font-size: 20px;
         padding-top: 10px;
@@ -241,6 +241,7 @@ body{
     .header{
         padding: 31.9vh 0 31.9vh 0;
     }
+
     .profile{
         background-size: 130px 135px;
         width: 125px;
