@@ -182,7 +182,19 @@ body{
     }
 }
 
-/* Tablet Screen */
+/* Tablet Screen Landscape*/
+@media only screen 
+  and (min-device-width: 426px) 
+  and (max-device-width: 768px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header{
+        padding: 31.9vh 0 31.9vh 0;
+    }
+
+}
+
+/* Tablet Screen Portrait */
 @media only screen and (min-width: 426px) and (max-width: 768px){
     .content{
         font-size: 20px;
@@ -216,8 +228,19 @@ body{
     }
 }
 
-/* Mobile Screen */
+/* Mobile Screen Landscape*/
+@media only screen and (max-device-width: 426px) 
+  and (orientation: landscape){
+    .header{
+        padding: 31.9vh 0 31.9vh 0;
+    }
+}
+
+/* Mobile Screen Portrait*/
 @media only screen and (max-width: 426px) and (min-width: 376px){
+    .header{
+        padding: 31.9vh 0 31.9vh 0;
+    }
     .profile{
         background-size: 130px 135px;
         width: 125px;
@@ -264,6 +287,10 @@ body{
 }
 
 @media only screen and (max-width: 376px) and (min-width: 321px){
+    .header{
+        padding: 31.9vh 0 31.9vh 0;
+    }
+
     .profile{
         background-size: 130px 135px;
         width: 125px;
@@ -308,6 +335,10 @@ body{
 }
 
 @media only screen and (max-width: 321px){
+    .header{
+        padding: 31.9vh 0 31.9vh 0;
+    }
+
     .profile{
         background-size: 130px 135px;
         width: 125px;
